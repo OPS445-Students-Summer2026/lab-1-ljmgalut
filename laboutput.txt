@@ -1,0 +1,28 @@
+test_0 (__main__.lab1a.test_0)
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for file creation: ./lab1a.py ... FAIL
+
+======================================================================
+FAIL: test_0 (__main__.lab1a.test_0)
+[Lab 1] - [Investigation 3] - [Part 2] - printing - Test for file creation: ./lab1a.py
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/ljmgalut/lab-1-ljmgalut/./CheckLab1.py", line 60, in test_0
+    self.assertTrue(os.path.exists('./lab1a.py'), msg=error_output)
+AssertionError: False is not true : your file cannot be found(HINT: make sure you AND your file are in the correct directory)
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)
+OPS445 Lab Report - System Information for running ./CheckLab1.py
+=================================================================
+    User login name: ljmgalut
+    Git Email: ljmgalut@myseneca.ca
+    Linux system name: ljmgalut-VirtualBox
+    Python executable: /usr/bin/python3
+    Python version:  3.12.3 (main, Mar 23 2026, 19:04:32) [GCC 13.3.0]
+    VS Code version:  1.119.0 0
+    OS Platform: linux
+    Working Directory: /home/ljmgalut/lab-1-ljmgalut
+    Start at: Mon May 11 00:43:26 2026
+=================================================================
